@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+}
+body {
+    background-color: #232323;
+   
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+#message {
+    color: #000;
+}
+
+.container{
+    margin: 0 auto;
+    width: 600px;
+    
+}
+.square {
+    float: left;
+    width: 30%;
+    height: 0;
+    padding-bottom: 30%;
+    background-color: #eaeaea;
+    margin: 1.6% 1.6%;
+    border-radius: 5px;
+    transition: background 0.8s ease;
+    
+}
+
+
+#stripe {
+    background-color: #eaeaea;
+    height: 30px;
+    text-align: center;
+}
+
+.selected {
+    background-color: red;
+}
+
+button {
+    outline: none;
+    padding: 0.25rem 1rem;
+    height: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: #232323;
+    border: none;
+    color: #fff;
+}
+
+#message {
+    display: inline-block;
+    width: 30%;
+}
